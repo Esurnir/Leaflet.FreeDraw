@@ -7,6 +7,7 @@
   "module": "dist/leaflet-freedraw.esm.js",
   "browser": "dist/leaflet-freedraw.web.js",
   "unpkg": "dist/leaflet-freedraw.iife.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "example": "webpack --config webpack.example.js && npm run css",
@@ -46,6 +47,7 @@
     "turf-polygon": "~1.0.3"
   },
   "peerDependencies": {
+    "@types/leaflet": "^1.7.0",
     "leaflet": "^1.2.0",
     "ramda": "^0.22.1"
   },
